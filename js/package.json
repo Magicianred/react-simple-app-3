@@ -1,0 +1,14 @@
+{
+  "name": "react-simple-app",
+  "version": "1.0.0",
+  "description": "React Simple App",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Dmitriy Batogov",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
