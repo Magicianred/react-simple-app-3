@@ -10,7 +10,7 @@ export var Posts = React.createClass({
                 return (<Post data={item} key={index}/>)
             });
         } else {
-            var postsTemplate = <p>Заметок нет</p>
+            var postsTemplate = <span className="posts__no-posts">Заметок нет :(</span>
         }
 
         return (

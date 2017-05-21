@@ -1,0 +1,12 @@
+.posts {
+    font-size: 0;
+
+    &__no-posts {
+        display: block;
+        margin: 0 auto;
+
+        text-align: center;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}

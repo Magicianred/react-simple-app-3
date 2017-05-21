@@ -9,7 +9,7 @@ var cssDev = ['style-loader', 'css-loader', 'sass-loader'];
 var cssProd = ExtractTextPlugin.extract({
     fallback: 'style-loader',
     use: ['css-loader', 'sass-loader'],
-    publicPath: './'
+    publicPath: '.'
 });
 var cssConfig = isProd ? cssProd : cssDev;
 
