@@ -45,7 +45,7 @@ export var App = React.createClass({
             // Cоздаём новый массив, в котором первым элементом ставим
             // новую заметку, чтобы она была верхней в списке
             var nextPost = item.concat(self.state.posts);
-            self.setState({posts: nextPost});
+            self.setState({ posts: nextPost });
         });
     },
 

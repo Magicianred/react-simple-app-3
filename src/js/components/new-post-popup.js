@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { emitter } from './app.js';
 
+
 export var NewPostPopup = React.createClass({
     getInitialState: function() {
         return {
@@ -64,15 +65,15 @@ export var NewPostPopup = React.createClass({
     },
 
     closePopup: function() {
-        this.setState({popupIsHidden: true});
+        this.setState({ popupIsHidden: true });
     },
 
     openPopup: function() {
-        this.setState({popupIsHidden: false});
+        this.setState({ popupIsHidden: false });
     },
 
     onCheckRuleClick: function(e) {
-        this.setState({agreeNotChecked: !this.state.agreeNotChecked});
+        this.setState({ agreeNotChecked: !this.state.agreeNotChecked });
     },
 
     render: function() {

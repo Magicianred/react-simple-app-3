@@ -1,6 +1,7 @@
 import React from 'react';
 import { Post } from './post';
 
+
 export var Posts = React.createClass({
     render: function() {
         var data = this.props.data;
