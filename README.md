@@ -1,7 +1,7 @@
-# Простые заметки на React
+# Simple Note Taking React App
 
-![Скриншот](https://github.com/batogov/react-simple-app/blob/master/screen.png "Скриншот")
+A simple application that allows you to view and create notes. Written with React, Webpack and Babel. Special thanks to the service [Yandex Abstracts](https://yandex.ru/referats/) for generate meaningless, but cool text snippets.
 
-📝 Простое приложение, позволяющее просматривать и добавлять заметки. Написано с помощью React, для сборки использовались Webpack, Babel и прочие вкусности. Отдельное спасибо сервису [Яндекс.Рефераты](https://yandex.ru/referats/) за генерацию бессмысленных и беспощадных текстов.
+The project build is located in the `/dist` folder. Works correctly in all modern browsers.
 
-Билд проекта находится в папке `/dist`. Ведёт себя послушно и корректно работает во всех современных браузерах.
+![Screenshot](https://github.com/batogov/react-simple-app/blob/master/screen.png "Screenshot")
